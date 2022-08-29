@@ -1,5 +1,7 @@
 import React from 'react'
 import Logo from '../Images/e-DAM Logo.png'
+import { Link } from "react-router-dom";
+
 
 export const StarterTemplate = () => {
   return (
@@ -7,7 +9,8 @@ export const StarterTemplate = () => {
         <section className="bg-violet-200 w-[100%] h-auto flex flex-col lg:flex-row items-center">
           <div className="order-2 lg:order-1 flex flex-col w-[60%] lg:ml-5 pb-10">
             <h1 className="text-3xl mb-3 hover:underline break-words">e - Designing and Marketing</h1>
-            <h2 className="">e - DAM is a student-based club of IARE that aims to build a technically well-equipped group with the most resourceful digital skills required in the modern workplace, to create and develop websites, applications and designing.</h2>
+            <h2 className="text-md my-1 hover:text-violet-900 break-words">e - DAM is a student-based club of IARE that aims to build a technically well-equipped group with the most resourceful digital skills required in the modern workplace, to create and develop websites, applications and designing.</h2>
+            <Link className="bg-violet-500 max-w-fit w-[100%] p-2 my-2 text-white rounded-md hover:bg-violet-900 break-words" to="/departments">Depatments</Link>
           </div>
           <div className="order-1 lg:order-2 w-[40%]">
             <img src={Logo} alt="Logo" />

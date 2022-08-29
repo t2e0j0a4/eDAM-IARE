@@ -1,10 +1,14 @@
 import React from 'react'
+// import Details from "../Components/Data/eDAM";
+// import Abhishek from "../Images/Abhishek.png";
+// import Datta from "../Images/Datta.png";
 
 const About = () => {
+  // const { members } = Details;
   return (
-    <section className="w-[100%] h-[100vh]">
-      
-    </section>
+  <>
+  
+  </>
   )
 }
 

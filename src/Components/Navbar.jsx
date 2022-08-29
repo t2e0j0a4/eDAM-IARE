@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   
   return (
-    <nav className="navbar w-[100%] bg-slate-50 flex flex-col lg:flex-row lg:items-start lg:justify-center" style={{fontFamily : "'Source Code Pro', monospace"}}>
+    <nav className="navbar w-[100%] bg-slate-50 flex flex-col lg:flex-row lg:items-start lg:justify-center" style={{fontFamily : "'Raleway', sans-serif"}}>
       <div className="head">
         <img className='w-[70px] h-[80px]' src={navlogo} alt="Logo" />
       </div>
