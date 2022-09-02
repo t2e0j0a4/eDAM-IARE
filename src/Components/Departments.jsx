@@ -12,6 +12,7 @@ import cloud from "../Images/cloud.jpg";
 import devops from "../Images/devops.jpg";
 import digimarketing from "../Images/digitalimg.png";
 import content from "../Images/content.png";
+import { Top } from './Top';
 
 const Departments = () => {
   React.useEffect(() => {
@@ -35,6 +36,7 @@ const Departments = () => {
         )
       })}
     </section>
+    <Top/>
     </div>
   )
 }

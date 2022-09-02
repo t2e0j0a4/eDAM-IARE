@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from '../Images/e-DAM Logo.png'
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { Top } from './Top';
 
 export const StarterTemplate = () => {
   React.useEffect(() => {
@@ -28,6 +29,9 @@ export const StarterTemplate = () => {
           <h3 className="my-2 text-xl text-blue-700 font-bold text-center">ABHISHEK NAGARAJA</h3>
           <span className="my-1 text-2xl text-slate-500 text-center">FOUNDER OF e - DAM IARE</span>
         </section>
+        <div className="bg-blue-100">
+          <Top/>
+        </div>
     </>
   )
 }

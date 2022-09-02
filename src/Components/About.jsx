@@ -4,6 +4,7 @@ import Abhishek from "../Images/Abhishek.png";
 import Datta from "../Images/Datta.png";
 import {FaLinkedin} from 'react-icons/fa'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { Top } from './Top';
 
 const About = () => {
   const { members } = Details;
@@ -34,6 +35,7 @@ const About = () => {
       )
     })}
   </section>
+  <Top/>
   </div>
   )
 }
