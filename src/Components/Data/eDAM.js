@@ -77,6 +77,12 @@ const Details = {
             domain : "Content Writing",
             desc : "Our writing services include blogs, articles, and product descriptions. The drafting shall be complete after keen proofreading and refining. We put constant efforts to raise the bar and meet expectations of the clients.",
             ref : "/contentwriting"
+        },
+        {
+            id : 11,
+            domain : "Blockchain",
+            desc : "Blockchain is a shared, immutable ledger for recording transactions, tracking assets and building trust. Discover why businesses worldwide are adopting it",
+            ref : "/blockchain"
         }
     ]
 }

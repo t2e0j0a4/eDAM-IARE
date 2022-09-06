@@ -1,9 +1,11 @@
-import React from 'react'
+import React , {useState} from 'react'
 import navlogo from '../Images/e-DAM Logo.png';
-import {AiOutlineMenu} from 'react-icons/ai'
+import {AiOutlineMenu , AiOutlineClose} from 'react-icons/ai'
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
+
+  const [menuClicked , setMenuClicked] = useState(false);
   
   return (
     <nav className="navbar w-[100%] bg-slate-50 flex flex-col lg:flex-row lg:items-start lg:justify-center" style={{fontFamily : "'Raleway', sans-serif"}}>
@@ -26,11 +28,13 @@ export default function Navbar() {
           navItems.classList.remove("h-0");
           navItems.classList.add("h-auto");
           navItems.classList.add("pb-6");
+          setMenuClicked(true);
         }
         else if (navItems.classList.contains("h-auto")){
           navItems.classList.add("h-0");
           navItems.classList.remove("h-auto");
           navItems.classList.remove("pb-6");
+          setMenuClicked(false);
         }
         listItems.map((eachItem)=>{
           if (eachItem.classList.contains("invisible")){
@@ -44,7 +48,7 @@ export default function Navbar() {
           return '';
         })
       }}>
-          <AiOutlineMenu/>
+          {menuClicked ? <AiOutlineClose/> :<AiOutlineMenu/>}
       </div>
     </nav>
   )
