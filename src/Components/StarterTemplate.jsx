@@ -15,7 +15,7 @@ export const StarterTemplate = () => {
     <>
         <section className="bg-violet-200 w-[100%] h-auto flex flex-col lg:flex-row items-center p-5">
           <div className="order-2 lg:order-1 flex flex-col w-[98%] lg:w-[60%] lg:ml-5 pb-5">
-            <h1 className="md:text-3xl mb-3 md:hover:underline break-words text-xl">e - DAM</h1>
+            <h1 className="md:text-3xl mb-3 break-words text-xl">e - DAM</h1>
             <div className="line my-1 md:my-2 w-[12%] h-[0.10rem] md:w-[8%] md:h-1 rounded-sm bg-violet-700"></div>
             <h2 className="text-md my-1 hover:text-violet-900 break-words w-[90%] lg:w-auto">e - DAM is a student-based club of IARE that aims to build a technically well-equipped group with the most resourceful digital skills required in the modern workplace, to create and develop websites, applications and designing.</h2>
             <Link className="bg-violet-500 max-w-fit w-[100%] p-2 my-2 text-white rounded-md hover:bg-violet-900 break-words" to="/departments">Depatments</Link>
