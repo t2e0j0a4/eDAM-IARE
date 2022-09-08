@@ -1,4 +1,4 @@
-import React from 'react'
+import React , {useState} from 'react'
 import Logo from '../Images/e-DAM Logo.png'
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -8,6 +8,9 @@ export const StarterTemplate = () => {
   React.useEffect(() => {
     document.title = "e - DAM | Home"
   },[])
+  const [more , setMore] = useState(false)
+  const [seeMore , setSeeMore] = useState(true)
+  const [seeLess , setSeeLess] = useState(false)
   return (
     <>
         <section className="bg-violet-200 w-[100%] h-auto flex flex-col lg:flex-row items-center p-5">
@@ -23,7 +26,15 @@ export const StarterTemplate = () => {
         <section className="bg-blue-100 w-[100%] h-auto flex flex-col items-center justify-center py-10">
           <article className="flex flex-col items-center w-[100%] max-w-[50%] my-2">
             <h1 className="my-2 text-3xl text-blue-800 hover:underline text-center">About Us</h1>
-            <h2 className="my-2 text-center break-words">e - Designing and Marketing (e - DAM) is a student club of IARE, which focuses on developing the develope culuture among students in the college and work on college-projects, or work as intern's in companies. We focus on working as a team and on profile/resume building. The club is run by the students of IARE, Dundigal, Hyderabad.</h2>
+            <h2 className="my-2 text-center break-words">e - Designing and Marketing (e - DAM) is a student club of IARE, which focuses on developing the develope culuture among students in the college and work on college-projects, or work as intern's in companies {seeMore && <button id="moreBtn" className="text-blue-900 hover:underline px-1 py-[0.10rem] hover:text-black font-semibold" onClick={()=>{
+              setMore(true);
+              setSeeMore(false);
+              setSeeLess(true);
+            }}>see more</button>}{more && ". We focus on working as a team and on profile/resume building. The club is run by the students of IARE, Dundigal, Hyderabad."}{seeLess && <button className="text-blue-900 hover:underline px-1 py-[0.10rem] hover:text-black font-semibold" onClick={()=>{
+              setMore(false);
+              setSeeMore(true);
+              setSeeLess(false);
+            }}>see less</button>}</h2>
           </article>
           <div className="line my-2 w-[8%] h-1 rounded-sm bg-violet-700"></div>
           <h3 className="my-2 text-xl text-blue-700 font-bold text-center">ABHISHEK NAGARAJA</h3>

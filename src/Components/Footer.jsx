@@ -25,11 +25,11 @@ const Footer = () => {
           </div>
           <div className="flex flex-col items-center justify-center py-1">
             <h1 className="text-center uppercase text-xl font-bold text-violet-900 hover:underline break-words">Our Work</h1>
-            <Link to="/blockchain" className="my-1 text-lg hover:underline hover:text-violet-800 hover:bg-white hover:rounded-md hover:px-2 break-words">Blockchain</Link>
-            <Link to="/uiux" className="my-1 text-lg hover:underline hover:text-violet-800 hover:bg-white hover:rounded-md hover:px-2 break-words">UI/UX</Link>
-            <Link to="/web" className="my-1 text-lg hover:underline hover:text-violet-800 hover:bg-white hover:rounded-md hover:px-2 break-words">Web Development</Link>
-            <Link to="/app" className="my-1 text-lg hover:underline hover:text-violet-800 hover:bg-white hover:rounded-md hover:px-2 break-words">App Development</Link>
-            <Link to="/content" className="my-1 text-lg hover:underline hover:text-violet-800 hover:bg-white hover:rounded-md hover:px-2 break-words">Content Writing</Link>
+            <Link to="/blockchain" className="text-center my-1 text-lg hover:underline hover:text-violet-800 hover:bg-white hover:rounded-md hover:px-2 break-words">Blockchain</Link>
+            <Link to="/uiux" className="text-center my-1 text-lg hover:underline hover:text-violet-800 hover:bg-white hover:rounded-md hover:px-2 break-words">UI/UX</Link>
+            <Link to="/web" className="text-center my-1 text-lg hover:underline hover:text-violet-800 hover:bg-white hover:rounded-md hover:px-2 break-words">Web Development</Link>
+            <Link to="/app" className="text-center my-1 text-lg hover:underline hover:text-violet-800 hover:bg-white hover:rounded-md hover:px-2 break-words">App Development</Link>
+            <Link to="/content" className="text-center my-1 text-lg hover:underline hover:text-violet-800 hover:bg-white hover:rounded-md hover:px-2 break-words">Content Writing</Link>
           </div>
           <div className="flex flex-col items-center justify-center py-1">
             <h1 className="text-center uppercase text-xl font-bold text-violet-900 hover:underline break-words">Useful Links</h1>
