@@ -6,7 +6,7 @@ const Details = {
             id : 1,
             name : "Abhishek Nagaraja",
             role : "Founder & Ex - Preseident",
-            desc : "Abhishek, The President of e-DAM is a workaholic and man on wheels. He upholds the spirit of development and he's determined to lead and direct rest of the hierarchy with his own success mantra.",
+            desc : "Abhishek, The Founder of e-DAM is a workaholic and man on wheels. He upholds the spirit of development and he's determined to lead and direct rest of the hierarchy with his own success mantra.",
             linkedin : "https://www.linkedin.com/in/abhishek-nagaraja-949971192/"
         },
         {

@@ -1,7 +1,9 @@
 import React from 'react'
-
+import UnderConstruction from '../UnderConstruction'
 export const Cybersecurity = () => {
   return (
-    <div>Cybersecurity</div>
+    <>
+      <UnderConstruction/>
+    </>
   )
 }

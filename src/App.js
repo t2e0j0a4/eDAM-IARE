@@ -36,7 +36,7 @@ function App() {
         <Route exact path="/cloud" element={<CloudCoumputing/>} />
         <Route exact path="/devops" element={<Devops/>} />
         <Route exact path="/digitalmarketing" element={<DigitalMarketing/>} />
-        <Route exact path="/contentwriting" element={<ContentWriting/>} />
+        <Route exact path="/content" element={<ContentWriting/>} />
         <Route exact path="/blockchain" element={<Blockchain/>} />
         <Route exact path="/joinus" element={<Join />} />
         <Route exact path="/contactus" element={<Contact />} />
