@@ -29,7 +29,7 @@ const Departments = () => {
         const {id , domain , ref , desc} = eachDept;
         const imgUrl = `${domain === "Web Development" ? webdev : domain === "App Development" ? appdev : domain === "Designing and Branding" ? dandb : domain === "UI/UX" ? uiux : domain === "Cybersecurity" ? cs : domain === "AI/ML" ? aiml : domain === "Cloud Computing" ? cloud : domain === "DevOps" ? devops : domain === "Digital Marketing" ? digimarketing : domain === "Content Writing" ? content : "Blockchain" ? blockchain : ''}`
         return (
-          <div key={id} className="flex flex-col items-center px-2 py-5 justify-center border border-violet-900 rounded-lg mx-5 my-3 hover:bg-violet-100 transition-all">
+          <div key={id} className="flex flex-col items-center px-2 py-5 justify-center border border-violet-900 rounded-lg mx-5 my-3 hover:bg-violet-100 transition-all w-[98%] md:w-auto">
             <LazyLoadImage src={imgUrl} alt="Domain" className="w-[40%] my-1 rounded-[60%] text-center hidden sm:block" />
             <Link to={ref} className="my-2 w-[100%] text-lg md:hover:text-violet-800 break-words sm:break-normal font-semibold text-black text-center">{domain}</Link>
             <p className="text-md tetx-black text-center w-[90%] md:w-[90%] my-1 break-words cursor-pointer">{desc}</p>

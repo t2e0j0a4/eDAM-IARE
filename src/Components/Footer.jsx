@@ -25,17 +25,17 @@ const Footer = () => {
           </div>
           <div className="flex flex-col items-center justify-center py-1">
             <h1 className="text-center uppercase text-xl font-bold text-violet-900 hover:underline break-words">Our Work</h1>
-            <Link to="/uiux" className="text-center my-1 text-lg hover:underline hover:text-violet-800 hover:rounded-md hover:px-2 break-words sm:break-normal">UI|UX</Link>
-            <Link to="/blockchain" className="text-center my-1 text-lg hover:underline hover:text-violet-800 hover:rounded-md hover:px-2 break-words sm:break-normal">Blockchain</Link>
-            <Link to="/web" className="text-center my-1 text-lg hover:underline hover:text-violet-800 hover:rounded-md hover:px-2 break-words sm:break-normal">Web Development</Link>
-            <Link to="/app" className="text-center my-1 text-lg hover:underline hover:text-violet-800 hover:rounded-md hover:px-2 break-words sm:break-normal">App Development</Link>
-            <Link to="/content" className="text-center my-1 text-lg hover:underline hover:text-violet-800 hover:rounded-md hover:px-2 break-words sm:break-normal">Content Writing</Link>
+            <Link to="/uiux" className="text-center my-1 text-lg text-black font-normal underline break-words sm:break-normal">UI|UX</Link>
+            <Link to="/blockchain" className="text-center my-1 text-lg text-black font-normal underline break-words sm:break-normal">Blockchain</Link>
+            <Link to="/web" className="text-center my-1 text-lg text-black font-normal underline break-words sm:break-normal">Web Development</Link>
+            <Link to="/app" className="text-center my-1 text-lg text-black font-normal underline break-words sm:break-normal">App Development</Link>
+            <Link to="/content" className="text-center my-1 text-lg text-black font-normal underline break-words sm:break-normal">Content Writing</Link>
           </div>
           <div className="flex flex-col items-center justify-center py-1">
             <h1 className="text-center uppercase text-xl font-bold text-violet-900 hover:underline break-words">Useful Links</h1>
-            <Link className="my-1 text-lg hover:underline hover:text-violet-800 hover:rounded-md hover:px-2 break-words sm:break-normal" to="/about">About Us</Link>
-            <Link className="my-1 text-lg hover:underline hover:text-violet-800 hover:rounded-md hover:px-2 break-words sm:break-normal" to="/departments">Depatments</Link>
-            <Link className="my-1 text-lg hover:underline hover:text-violet-800 hover:rounded-md hover:px-2 break-words sm:break-normal" to="/joinus">Join Us</Link>
+            <Link className="text-center my-1 text-lg text-black font-normal underline break-words sm:break-normal" to="/about">About Us</Link>
+            <Link className="text-center my-1 text-lg text-black font-normal underline break-words sm:break-normal" to="/departments">Depatments</Link>
+            <Link className="text-center my-1 text-lg text-black font-normal underline break-words sm:break-normal" to="/joinus">Join Us</Link>
           </div>
           <div className="flex flex-col items-center justify-center py-1 lg:flex-wrap">
             <h1 className="text-center uppercase text-xl font-bold text-violet-900 hover:underline break-words">Contact</h1>
