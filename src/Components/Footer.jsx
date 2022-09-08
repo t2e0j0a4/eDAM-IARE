@@ -20,25 +20,25 @@ const Footer = () => {
         <div className="mx-auto line w-[98%] h-[1px] rounded-sm bg-violet-700 my-2 break-words"></div>
         <div className="w-[100%] middlerow grid grid-cols-1 grid-rows-4 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1 py-2">
           <div className="flex flex-col items-center justify-center py-1">
-            <h1 className="text-center uppercase text-xl font-bold text-violet-900 hover:underline break-words">e - DAM IARE</h1>
+            <h1 className="w-[100%] text-center text-xl font-bold text-violet-900 break-words sm:break-normal">e - DAM IARE</h1>
             <p className="w-[90%] text-center break-words">On a journey to grow developers and designer's community in IARE college. We work on skill development and resume building.</p>
           </div>
           <div className="flex flex-col items-center justify-center py-1">
-            <h1 className="text-center uppercase text-xl font-bold text-violet-900 hover:underline break-words">Our Work</h1>
-            <Link to="/uiux" className="text-center my-1 text-lg text-black font-normal underline break-words sm:break-normal">UI|UX</Link>
-            <Link to="/blockchain" className="text-center my-1 text-lg text-black font-normal underline break-words sm:break-normal">Blockchain</Link>
-            <Link to="/web" className="text-center my-1 text-lg text-black font-normal underline break-words sm:break-normal">Web Development</Link>
-            <Link to="/app" className="text-center my-1 text-lg text-black font-normal underline break-words sm:break-normal">App Development</Link>
-            <Link to="/content" className="text-center my-1 text-lg text-black font-normal underline break-words sm:break-normal">Content Writing</Link>
+            <h1 className="w-[100%] text-center capitalize text-xl font-bold text-violet-900 break-words sm:break-normal">Our Work</h1>
+            <Link to="/uiux" className="w-[100%] text-center my-1 text-md text-black font-normal break-words sm:break-normal">UI|UX</Link>
+            <Link to="/blockchain" className="w-[100%] text-center my-1 text-md text-black font-normal break-words sm:break-normal">Blockchain</Link>
+            <Link to="/web" className="w-[100%] text-center my-1 text-md text-black font-normal break-words sm:break-normal">Web Development</Link>
+            <Link to="/app" className="w-[100%] text-center my-1 text-md text-black font-normal break-words sm:break-normal">App Development</Link>
+            <Link to="/content" className="w-[100%] text-center my-1 text-md text-black font-normal break-words sm:break-normal">Content Writing</Link>
           </div>
           <div className="flex flex-col items-center justify-center py-1">
-            <h1 className="text-center uppercase text-xl font-bold text-violet-900 hover:underline break-words">Useful Links</h1>
-            <Link className="text-center my-1 text-lg text-black font-normal underline break-words sm:break-normal" to="/about">About Us</Link>
-            <Link className="text-center my-1 text-lg text-black font-normal underline break-words sm:break-normal" to="/departments">Depatments</Link>
-            <Link className="text-center my-1 text-lg text-black font-normal underline break-words sm:break-normal" to="/joinus">Join Us</Link>
+            <h1 className="w-[100%] text-center capitalize text-xl font-bold text-violet-900 break-words sm:break-normal">Useful Links</h1>
+            <Link className="w-[100%] text-center my-1 text-md text-black font-normal break-words sm:break-normal" to="/about">About Us</Link>
+            <Link className="w-[100%] text-center my-1 text-md text-black font-normal break-words sm:break-normal" to="/departments">Depatments</Link>
+            <Link className="w-[100%] text-center my-1 text-md text-black font-normal break-words sm:break-normal" to="/joinus">Join Us</Link>
           </div>
           <div className="flex flex-col items-center justify-center py-1 lg:flex-wrap">
-            <h1 className="text-center uppercase text-xl font-bold text-violet-900 hover:underline break-words">Contact</h1>
+            <h1 className="w-[100%] text-center capitalize text-xl font-bold text-violet-900 break-words sm:break-normal">Contact</h1>
             <div className="flex flex-col items-center my-1 lg:flex-row lg:flex-wrap justify-center">
               <IoMdSchool/>
               <h2 className="text-lg font-semibold text-black hover:text-violet-800 text-center">Institute Of Aeronautical Engineering</h2>
