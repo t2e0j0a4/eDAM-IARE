@@ -31,7 +31,7 @@ const Departments = () => {
         return (
           <div key={id} className="flex flex-col items-center px-2 py-5 justify-center border border-violet-900 rounded-lg mx-5 my-3 hover:bg-violet-100 transition-all">
             <LazyLoadImage src={imgUrl} alt="Domain" className="w-[40%] my-1 rounded-[60%] text-center hidden sm:block" />
-            <Link to={ref} className="my-1 text-lg hover:underline hover:text-violet-800 hover: hover:rounded-md hover:px-2 break-words font-semibold text-violet-700 text-center">{domain}</Link>
+            <Link to={ref} className="my-1 text-lg hover:underline hover:text-violet-800 hover: hover:rounded-md hover:px-2 break-words sm:break-normal font-semibold text-violet-700 text-center">{domain}</Link>
             <p className="text-md tetx-black text-center w-[90%] md:w-[90%] my-1 break-words cursor-pointer">{desc}</p>
           </div>
         )
